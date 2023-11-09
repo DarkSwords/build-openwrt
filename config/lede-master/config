@@ -157,43 +157,43 @@ CONFIG_DEFAULT_luci-app-wol=y
 CONFIG_DEFAULT_luci-app-zerotier=y
 CONFIG_DEFAULT_luci-newapi=y
 CONFIG_DEFAULT_luci-proto-bonding=y
-#CONFIG_DEFAULT_luci-app-accesscontrol=y #配置访问控制,可以不启用
-#CONFIG_DEFAULT_luci-app-adbyby-plus=y #去广告功能,可选
-#CONFIG_DEFAULT_luci-app-arpbind=y #ARP绑定功能,可选
-#CONFIG_DEFAULT_luci-app-ipsec-vpnd=y #IPSec VPN服务器,可选
-#CONFIG_DEFAULT_luci-app-nlbwmon=y #网络带宽监控,可选
-#CONFIG_DEFAULT_luci-app-ssr-plus=y #SSR科学上网客户端,可选
-#CONFIG_DEFAULT_luci-app-unblockmusic=y #解锁音乐等功能,可选
-#CONFIG_DEFAULT_luci-app-vsftpd=y #vsftpd FTP服务器,可选
-#CONFIG_DEFAULT_luci-app-wireguard=y #WireGuard VPN,可选
-#CONFIG_DEFAULT_luci-app-xlnetacc=y #迅雷快鸟加速器,可选
+#CONFIG_DEFAULT_luci-app-accesscontrol=y 
+#CONFIG_DEFAULT_luci-app-adbyby-plus=y 
+#CONFIG_DEFAULT_luci-app-arpbind=y 
+#CONFIG_DEFAULT_luci-app-ipsec-vpnd=y 
+#CONFIG_DEFAULT_luci-app-nlbwmon=y 
+#CONFIG_DEFAULT_luci-app-ssr-plus=y 
+#CONFIG_DEFAULT_luci-app-unblockmusic=y 
+#CONFIG_DEFAULT_luci-app-vsftpd=y 
+#CONFIG_DEFAULT_luci-app-wireguard=y 
+#CONFIG_DEFAULT_luci-app-xlnetacc=y 
 CONFIG_DEFAULT_mkf2fs=y
 CONFIG_DEFAULT_mtd=y
 CONFIG_DEFAULT_netifd=y
 CONFIG_DEFAULT_opkg=y
 CONFIG_DEFAULT_partx-utils=y
-#CONFIG_DEFAULT_pciutils=y # pciutils可以不启用
-#CONFIG_DEFAULT_ppp=y # ppp点对点协议可以不启用
-#CONFIG_DEFAULT_ppp-mod-pppoe=y # pppoe模块可以不启用
+#CONFIG_DEFAULT_pciutils=y 
+#CONFIG_DEFAULT_ppp=y 
+#CONFIG_DEFAULT_ppp-mod-pppoe=y
 CONFIG_DEFAULT_procd=y
 CONFIG_DEFAULT_procd-ujail=y
 CONFIG_DEFAULT_uci=y
 CONFIG_DEFAULT_uclient-fetch=y
 CONFIG_DEFAULT_urandom-seed=y
 CONFIG_DEFAULT_urngd=y
-#CONFIG_DEFAULT_usbutils=y # usbutils不是必需的,可不启用
+#CONFIG_DEFAULT_usbutils=y 
 CONFIG_HAS_TESTING_KERNEL=y
 CONFIG_HAS_FPU=y
 CONFIG_AUDIO_SUPPORT=y
-#CONFIG_GPIO_SUPPORT=y # GPIO支持可以不启用
+#CONFIG_GPIO_SUPPORT=y 
 CONFIG_PCI_SUPPORT=y
 CONFIG_PCIE_SUPPORT=y
-#CONFIG_PCMCIA_SUPPORT=y # PCMCIA支持同样可不启用
+#CONFIG_PCMCIA_SUPPORT=y 
 CONFIG_USB_SUPPORT=y
-CONFIG_RTC_SUPPORT=y # 实时时钟支持可不启用
+CONFIG_RTC_SUPPORT=y 
 CONFIG_USES_SQUASHFS=y
 CONFIG_ARCH_64BIT=y
-CONFIG_VIRTIO_SUPPORT=y # 虚拟化技术VIRTIO相关支持可不启用
+CONFIG_VIRTIO_SUPPORT=y 
 CONFIG_USES_ROOTFS_PART=y
 CONFIG_USES_BOOT_PART=y
 CONFIG_x86_64=y
@@ -4847,11 +4847,11 @@ CONFIG_PACKAGE_luci-app-nlbwmon=y
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
 # CONFIG_PACKAGE_luci-app-pushbot is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent is not set
-CONFIG_PACKAGE_luci-app-qbittorrent_static=y
+#CONFIG_PACKAGE_luci-app-qbittorrent_static=y
 # CONFIG_PACKAGE_luci-app-qbittorrent_dynamic is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple_static is not set
-CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
+#CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
 # CONFIG_PACKAGE_luci-app-qos is not set
 # CONFIG_PACKAGE_luci-app-radicale is not set
 # CONFIG_PACKAGE_luci-app-ramfree is not set
@@ -4920,7 +4920,7 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 #
 CONFIG_PACKAGE_luci-theme-argon=y
 # CONFIG_PACKAGE_luci-theme-argon-mod is not set
-CONFIG_PACKAGE_luci-theme-bootstrap=y
+#CONFIG_PACKAGE_luci-theme-bootstrap=y
 # CONFIG_PACKAGE_luci-theme-design is not set
 # CONFIG_PACKAGE_luci-theme-material is not set
 # CONFIG_PACKAGE_luci-theme-netgear is not set
@@ -6255,7 +6255,7 @@ CONFIG_PACKAGE_libipset=y
 CONFIG_PACKAGE_nlbwmon=y
 # CONFIG_PACKAGE_noddos is not set
 # CONFIG_PACKAGE_noping is not set
-# CONFIG_PACKAGE_npc is not set
+CONFIG_PACKAGE_npc=y
 # CONFIG_NPC_COMPRESS_UPX is not set
 # CONFIG_PACKAGE_nps is not set
 # CONFIG_NPS_COMPRESS_UPX is not set
