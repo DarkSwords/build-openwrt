@@ -31,11 +31,7 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-# echo 'src-git argone https://github.com/kenzok78/luci-theme-argone' >>feeds.conf.default
 
-# Themes
-# echo 'src-git argone https://github.com/kenzok78/luci-theme-argone' >>feeds.conf.default
-# echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon.git' >> feeds.conf.default
 # Passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
