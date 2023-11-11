@@ -539,7 +539,7 @@ CONFIG_FEED_luci=y
 CONFIG_FEED_routing=y
 CONFIG_FEED_telephony=y
 CONFIG_FEED_passwall=y
-# CONFIG_FEED_argone is not set
+CONFIG_FEED_argone=y
 
 #
 # Base system
