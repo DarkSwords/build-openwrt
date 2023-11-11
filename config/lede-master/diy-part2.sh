@@ -34,7 +34,8 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # echo 'src-git argone https://github.com/kenzok78/luci-theme-argone' >>feeds.conf.default
 
 # Themes
-echo 'src-git argone https://github.com/kenzok78/luci-theme-argone' >>feeds.conf.default
+# echo 'src-git argone https://github.com/kenzok78/luci-theme-argone' >>feeds.conf.default
+echo 'src-git argone https://github.com/jerrykuku/luci-theme-argon.git;branch=18.06' >> feeds.conf.default
 # Passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
