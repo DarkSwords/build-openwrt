@@ -33,8 +33,9 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Passwall
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
-svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+# https://github.com/xiaorouji/openwrt-passwall-packages
+git clone --depth=1 https://github.com/DarkSwords/openwrt-passwall-packages package/openwrt-passwall
+svn export https://github.com/DarkSwords/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
