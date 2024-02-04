@@ -34,6 +34,7 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 
 # Passwall
 # https://github.com/xiaorouji/openwrt-passwall-packages
+
 # git clone --depth=1 https://github.com/DarkSwords/openwrt-passwall-packages package/openwrt-passwall
 # svn export https://github.com/DarkSwords/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 
