@@ -34,16 +34,6 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # rm -rf package/luci-app-amlogic
 # git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 
-# Passwall
-# https://github.com/xiaorouji/openwrt-passwall-packages
-
-# git clone --depth=1 https://github.com/DarkSwords/openwrt-passwall-packages package/openwrt-passwall
-# svn export https://github.com/DarkSwords/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-
-# git clone https://github.com/DarkSwords/openwrt-passwall-packages.git package/openwrt-passwall
-# git archive --remote=https://github.com/DarkSwords/openwrt-passwall.git trunk/luci-app-passwall | tar xvf - -C package/luci-app-passwall
-
-
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
